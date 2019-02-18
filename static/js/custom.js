@@ -309,7 +309,14 @@ jQuery(function($){
     jQuery(".aa-properties-nav").removeClass("aa-list-view");
   });
 
+  jQuery(document).ready( function() {
+    jQuery('#where').delay(300).fadeOut();
+  });
+ $(document).ready( function() {
+        alert("Hello world");
+      });
 
+  
   /* ----------------------------------------------------------- */
   /*  14. RELATED ITEM SLIDER (SLICK SLIDER)
   /* ----------------------------------------------------------- */      

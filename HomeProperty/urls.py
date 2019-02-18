@@ -25,5 +25,5 @@ if settings.DEBUG:
         path('', views.HomePage.as_view(), name='home'),
         path('registration/',include('registration.urls', namespace='registration')),
         path('registration/', include('django.contrib.auth.urls')),
-       
+        path('contact/', include('contact.urls')),
     ]

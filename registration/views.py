@@ -11,8 +11,6 @@ class SignUp(CreateView):
 
 class HomePage(TemplateView):
     template_name = 'index.html'
-class ContactPage(TemplateView):
-    template_name = 'contact.html'
 class GalleryPage(TemplateView):
     template_name = 'gallery.html'
 class PropertiesPage(TemplateView):
